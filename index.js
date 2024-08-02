@@ -86,7 +86,7 @@ app.post("/api/send-email2", (req, res) => {
 
   const mailOptions = {
     from: "ipcsglobalindia@gmail.com",
-    to: ["ipcsdeveloper@gmail.com"],
+    to: ["ipcsdeveloper@gmail.com","dmmanager.ipcs@gmail.com"],
     subject: "New Lead Form Submission on ",
     html: emailHtml,
   };
