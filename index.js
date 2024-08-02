@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 const corsOptions = {
   origin: [
     "http://localhost:5173",
-    "https://automation-landing-page-eight.vercel.app",
+    "https://python-landing-page.vercel.app",
     "http://python-campaign.ipcsglobal.com",
     "https://python-campaign.ipcsglobal.com",
   ],
